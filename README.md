@@ -18,9 +18,9 @@ Then the status of the eye is detected by comparing the rate in the current fram
 The image will also be warning if the person is lost. **Details are available in codes.**
 
 We have 5 files available. Two files of morphological operations used.
-Files necessary to work: [Fatigue_delay](../blob/main/Fatigue_delay.m)
-                         [dedectorEye](../blob/main/dedectorEye.m)
-                         [Alarm](../blob/main/Alarm.wav)
+Files necessary to work: [Fatigue_delay](../main/Fatigue_delay.m)
+                         [dedectorEye](../main/dedectorEye.m)
+                         [Alarm](../main/Alarm.wav)
 
 ## Let's See the Results
 
