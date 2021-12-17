@@ -24,5 +24,5 @@ Files necessary to work: [Fatigue_delay](../blob/main/Fatigue_delay.m)
 
 ## Let's See the Results
 
-![Awake](../blob/main/awake.png "Status: Awake")
-![Sleepy](../blob/main/sleepy.png "Status: Sleepy")
+![Awake](../main/images/awake.png "Status: Awake")
+![Sleepy](../main/images/sleepy.png "Status: Sleepy")
