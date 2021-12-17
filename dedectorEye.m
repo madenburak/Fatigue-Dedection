@@ -30,7 +30,7 @@ imageEyeClose=imclose(imageEyeBinary, strel('sphere',4));
 
 %The total pixel values ??are taken with SUM. 
 %Number of Numel and the number of pixels are taken and the ratio of black pixels are calculated with white pixels. 
-%The odds are different if the eye is on and off. When the image is turned to Binary, 
+%The rate are different if the eye is on and off. When the image is turned to Binary, 
 %the values ??received are white pixels, the rest of the rest are black.
 %The use of morphological transactions is beneficial.
 
