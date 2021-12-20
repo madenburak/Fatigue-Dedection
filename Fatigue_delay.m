@@ -1,3 +1,4 @@
+@uthor: Burak Maden
 %If the camera remains on, type clear all to the Command Window, then you can delete it with clc!
 
 
@@ -43,7 +44,7 @@ while runLoop
     videoFrame = snapshot(cam);
     
     %Warning music is prepared to steal 2 seconds. 2 value is used to change the time.
-    warningSound = 'Alarm07.wav';
+    warningSound = 'Alarm.wav';
     [y,Fs] = audioread(warningSound);
     samples = [1,2*Fs];
     clear y Fs;
@@ -92,7 +93,7 @@ while runLoop
    
     % The video player appears with the created video frame.
     step(videoPlayer, videoFrame);
-    % Oynat?c? penceresi aç?k m? kontrol edilir.
+    % Oynat?c? penceresi aÃ§?k m? kontrol edilir.
     runLoop = isOpen(videoPlayer);
 end
 
